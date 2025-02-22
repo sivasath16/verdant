@@ -15,7 +15,7 @@ import {
 const routes = [
   { name: "Health", href: "/health" },
   { name: "Travel", href: "/travel" },
-  { name: "Food", href: "/food" },
+  { name: "Smart House", href: "/smart_house" },
 ]
 
 export function Navbar() {
