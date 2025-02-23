@@ -84,5 +84,3 @@ if st.session_state.bot:
         for i in range(len(st.session_state.bot)):
             message(st.session_state.past[i], is_user=True, key=str(i) + '_user', avatar_style='big-smile')
             message(st.session_state.bot[i], key=str(i), avatar_style='thumbs')
-
-!streamlit run /usr/local/lib/python3.11/dist-packages/colab_kernel_launcher.py
