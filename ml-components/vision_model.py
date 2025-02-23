@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/17wbnBQbEHwvi0GCSPulpciXyJ8JXixcf
 """
 
-!pip install flask opencv-python pillow torch torchvision ultralytics flask-cors
+# !pip install flask opencv-python pillow torch torchvision ultralytics flask-cors
 
 import os
 import cv2

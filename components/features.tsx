@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Footprints, Wallet, TreePine, Award, BarChart3, Globe2, Zap } from "lucide-react"
 
 const features = [
@@ -68,7 +69,7 @@ export default function Features() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mx-auto max-w-6xl">
-        {features.map((feature, i) => (
+        {features.map((feature, _i) => (
           <div
             key={feature.title}
             className={`group relative overflow-hidden rounded-3xl border bg-background/50 p-8 backdrop-blur-sm transition-all hover:bg-background/80 ${feature.className}`}

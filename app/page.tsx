@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className="relative z-10">
         {/* Company Name */}
-        <div className="absolute top-4 left-[388px] text-2xl font-bold text-green-800 dark:text-green-300">Verdant</div>
+        <div className="absolute top-4 left-4 text-2xl font-bold text-green-800 dark:text-green-300">Verdant</div>
 
         <Hero />
         <Features />

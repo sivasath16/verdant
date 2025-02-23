@@ -1,5 +1,5 @@
 "use client"
-import { useUser } from "@clerk/nextjs"
+
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid"
 import SheetDemo from "../components/SideSheets"
 import Lottie from "lottie-react"
@@ -16,13 +16,11 @@ import { Progress } from "@/components/ui/progress"
 import { CalendarDays, Trophy, Users } from "lucide-react"
 
 export default function BentoGridDemo() {
-  const { user } = useUser()
-  const firstName = user?.firstName || "there"
 
   return (
     <>
-      <div className="mb-4 max-w-4xl mx-auto pt-12">
-        <h1 className="text-4xl font-bold mb-4 mx-auto">👋 Hello, {firstName}!</h1>
+      <div className="mb-4 max-w-4xl mx-auto pt-12" suppressHydrationWarning >
+        <h1 className="text-4xl font-bold mb-4 mx-auto" suppressHydrationWarning>👋 Hello, Siva</h1>
       </div>
 
       <CardContainer className="inter-var">

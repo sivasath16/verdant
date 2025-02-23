@@ -113,7 +113,7 @@ export function EmissionsModal({ isOpen, onClose, fromCity, toCity, mode }: Emis
                 </div>
                 <div className="text-right">
                   <p className="font-medium">${Math.round(route.price)}</p>
-                  <p className="text-sm text-muted-foreground">{route.emissions.toFixed(2)} kg CO2e</p>
+                  <p className="text-sm text-green-600">{route.emissions.toFixed(2)} kg CO2e</p>
                 </div>
               </div>
             ))}

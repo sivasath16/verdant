@@ -4,6 +4,7 @@ import { CheckCircle } from "lucide-react"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { motion } from "framer-motion"
 import type { Reward } from "@/lib/rewards-data"
+import { DialogTitle } from "@radix-ui/react-dialog"
 
 interface RedeemModalProps {
   isOpen: boolean
@@ -16,6 +17,7 @@ export function RedeemModal({ isOpen, onClose, reward }: RedeemModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
+      <DialogTitle></DialogTitle>
       <DialogContent className="sm:max-w-md">
         <div className="flex flex-col items-center justify-center space-y-4 py-8">
           <motion.div

@@ -1,7 +1,7 @@
 "use client"
 import type React from "react"
 import { useEffect, useRef, useState } from "react"
-import { motion, useTransform, useScroll, useSpring } from "framer-motion"
+import { motion, useScroll } from "framer-motion"
 
 export const TracingBeam = ({
   children,
@@ -24,10 +24,6 @@ export const TracingBeam = ({
     }
   }, [])
 
-  const y1 = useSpring(useTransform(scrollYProgress, [0, 0.8], [50, svgHeight]), {
-    stiffness: 500,
-    damping: 90,
-  })
 
   return (
     <motion.div ref={ref} className={`relative ${className}`}>
