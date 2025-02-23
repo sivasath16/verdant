@@ -10,16 +10,12 @@ import tempfile
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv(override=True)
 counter = 0
 
 chat_history_tuples = []
 
-
-
-
-open_ai_api_key = "key"
+open_ai_api_key = os.getenv('OPENAI_API_KEY')
 
 loader1 = CSVLoader(file_path='sustainability_data.csv')
 loader2 = CSVLoader(file_path='grocery_sustainability.csv')
@@ -30,8 +26,6 @@ data1 = loader1.load()
 data2 = loader2.load()
 data3 = loader3.load()
 data4 = loader4.load()
-
-
 
 combined = data1+data2+data3+data4
 
@@ -78,3 +72,4 @@ if st.session_state.bot:
         for i in range(len(st.session_state.bot)):
             message(st.session_state.past[i], is_user=True, key=str(i) + '_user', avatar_style='big-smile')
             message(st.session_state.bot[i], key=str(i), avatar_style='thumbs')
+            

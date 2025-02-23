@@ -1,0 +1,101 @@
+ID,Category,Region,Sustainability Score,Year,Impact Factor,Measurement Unit
+1,Air Quality,Africa,91.33,2020,3.17,PPM
+2,Waste Management Efficiency,South America,51.8,2019,4.68,hectares
+3,Green Building Certification,Europe,90.05,2022,4.91,%
+4,Water Conservation,Europe,55.55,2024,4.21,PPM
+5,Renewable Energy Usage,Europe,56.56,2018,3.54,kWh
+6,Waste Management Efficiency,North America,70.96,2019,4.78,kWh
+7,Waste Management Efficiency,Asia,84.25,2018,4.6,PPM
+8,Public Transport Usage,Oceania,72.11,2024,4.06,%
+9,Water Conservation,Oceania,59.39,2019,4.05,tons
+10,Renewable Energy Usage,Africa,93.61,2018,3.93,hectares
+11,Renewable Energy Usage,Europe,90.8,2022,3.66,%
+12,Air Quality,North America,54.63,2021,3.79,%
+13,Air Quality,North America,92.84,2023,0.96,tons
+14,Water Conservation,South America,98.29,2022,1.87,tons
+15,Sustainable Agriculture,North America,81.73,2022,1.25,%
+16,Green Building Certification,Africa,52.87,2018,2.17,PPM
+17,Water Conservation,Oceania,53.63,2024,3.8,liters
+18,Green Building Certification,Asia,83.37,2020,1.64,kWh
+19,Sustainable Agriculture,South America,99.47,2020,4.94,hectares
+20,Air Quality,Asia,89.16,2018,4.51,%
+21,Green Building Certification,Europe,77.44,2019,4.27,liters
+22,Biodiversity Protection,Africa,96.38,2022,2.11,kWh
+23,Green Building Certification,Oceania,50.48,2020,3.4,hectares
+24,Biodiversity Protection,South America,75.74,2020,2.17,PPM
+25,Renewable Energy Usage,South America,95.7,2021,0.87,hectares
+26,Renewable Energy Usage,Africa,81.49,2024,1.29,PPM
+27,Recycling Rate,Oceania,67.79,2019,4.12,hectares
+28,Renewable Energy Usage,Oceania,79.73,2020,3.89,tons
+29,Water Conservation,Oceania,66.29,2019,2.69,liters
+30,Renewable Energy Usage,North America,63.48,2022,3.38,tons
+31,Public Transport Usage,Oceania,54.83,2023,2.68,hectares
+32,Sustainable Agriculture,North America,78.18,2023,4.64,%
+33,Recycling Rate,Oceania,58.77,2021,2.73,%
+34,Biodiversity Protection,North America,71.87,2023,3.52,kWh
+35,Biodiversity Protection,Europe,73.56,2021,1.23,PPM
+36,Biodiversity Protection,Europe,97.49,2020,4.36,liters
+37,Air Quality,Europe,96.97,2022,2.89,PPM
+38,Air Quality,North America,55.74,2024,2.67,liters
+39,Renewable Energy Usage,Oceania,50.75,2024,1.11,liters
+40,Waste Management Efficiency,Oceania,71.08,2023,1.96,%
+41,Air Quality,North America,88.01,2023,4.7,kWh
+42,Sustainable Agriculture,Oceania,81.69,2023,1.22,kWh
+43,Sustainable Agriculture,Asia,59.23,2021,1.36,hectares
+44,Sustainable Agriculture,South America,84.14,2018,0.75,hectares
+45,Renewable Energy Usage,Europe,56.56,2018,2.54,kWh
+46,Air Quality,North America,86.16,2018,2.23,%
+47,Renewable Energy Usage,Oceania,66.06,2021,4.73,%
+48,Green Building Certification,North America,65.92,2023,1.81,hectares
+49,Green Building Certification,North America,76.5,2018,3.91,PPM
+50,Biodiversity Protection,Africa,86.69,2021,0.91,hectares
+51,Green Building Certification,North America,78.76,2023,2.69,kWh
+52,Water Conservation,North America,96.9,2022,2.67,hectares
+53,Air Quality,Africa,73.49,2021,3.62,kWh
+54,Sustainable Agriculture,Europe,88.76,2022,4.51,kWh
+55,Air Quality,Oceania,73.25,2018,1.38,PPM
+56,Water Conservation,North America,60.87,2018,2.08,%
+57,Public Transport Usage,Asia,68.53,2021,4.9,hectares
+58,Recycling Rate,South America,88.6,2019,1.93,PPM
+59,Green Building Certification,Oceania,63.93,2021,2.63,hectares
+60,Sustainable Agriculture,North America,75.11,2018,4.03,liters
+61,Sustainable Agriculture,North America,73.95,2022,4.33,hectares
+62,Water Conservation,North America,61.86,2020,2.93,tons
+63,Water Conservation,Europe,86.16,2023,3.35,liters
+64,Water Conservation,Europe,72.51,2019,2.12,tons
+65,Green Building Certification,South America,93.13,2022,2.42,kWh
+66,Recycling Rate,South America,86.35,2024,2.24,%
+67,Waste Management Efficiency,South America,82.31,2024,2.98,liters
+68,Waste Management Efficiency,Asia,83.86,2022,1.27,PPM
+69,Waste Management Efficiency,Oceania,93.42,2024,4.58,tons
+70,Air Quality,South America,80.41,2022,2.22,PPM
+71,Renewable Energy Usage,South America,53.73,2018,1.7,hectares
+72,Biodiversity Protection,Asia,70.43,2023,4.99,PPM
+73,Public Transport Usage,South America,76.89,2020,0.6,kWh
+74,Public Transport Usage,Africa,64.7,2022,1.1,liters
+75,Sustainable Agriculture,South America,66.59,2019,4.53,tons
+76,Recycling Rate,Europe,96.67,2023,1.36,%
+77,Recycling Rate,North America,93.99,2023,4.84,kWh
+78,Waste Management Efficiency,Europe,59.07,2018,1.76,hectares
+79,Biodiversity Protection,North America,56.33,2018,2.82,PPM
+80,Green Building Certification,North America,87.66,2020,1.87,PPM
+81,Public Transport Usage,Oceania,64.88,2018,3.33,%
+82,Waste Management Efficiency,North America,96.28,2021,0.56,hectares
+83,Renewable Energy Usage,South America,99.17,2020,2.23,hectares
+84,Recycling Rate,Africa,50.04,2018,0.61,kWh
+85,Public Transport Usage,Oceania,62.98,2024,1.84,kWh
+86,Waste Management Efficiency,Africa,75.87,2018,0.51,liters
+87,Waste Management Efficiency,North America,57.62,2022,1.47,kWh
+88,Sustainable Agriculture,South America,92.27,2023,2.36,kWh
+89,Green Building Certification,Asia,53.41,2019,0.72,tons
+90,Carbon Sequestration,Oceania,57.58,2023,3.66,PPM
+91,Water Conservation,South America,64.51,2020,3.21,hectares
+92,Recycling Rate,Europe,86.3,2022,0.89,kWh
+93,Public Transport Usage,Oceania,97.63,2023,2.23,tons
+94,Recycling Rate,Asia,97.83,2022,2.48,%
+95,Carbon Sequestration,Asia,74.93,2023,3.2,liters
+96,Green Building Certification,North America,87.96,2018,4.28,hectares
+97,Sustainable Agriculture,Asia,75.11,2023,1.36,liters
+98,Waste Management Efficiency,Oceania,57.73,2024,3.27,PPM
+99,Public Transport Usage,Africa,52.84,2022,4.63,PPM
+100,Green Building Certification,Europe,83.68,2018,1.33,liters

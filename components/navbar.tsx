@@ -1,13 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
-const routes = [
-  { name: "Health", href: "/health" },
-  { name: "Travel", href: "/travel" },
-  { name: "Smart House", href: "/smart_house" },
-]
-
-
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur supports-[backdrop-filter]:bg-background/30">

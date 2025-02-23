@@ -1,16 +1,11 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandGithub,
   IconLeaf,
-  IconExchange,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
   IconPlaneDeparture,
   IconMoneybag
 } from "@tabler/icons-react";
-import { UserButton } from "@clerk/nextjs";
 
 export function BottomDock() {
   const links = [
@@ -29,7 +24,7 @@ export function BottomDock() {
       href: "/travel",
     },
     {
-      title: "Smart Home",
+      title: "Sustainable Living",
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -45,7 +40,7 @@ export function BottomDock() {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center pb-6 w-full z-10">
+    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center pb-6 w-full z-100">
       <FloatingDock items={links} />
     </div>
   );

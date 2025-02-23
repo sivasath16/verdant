@@ -43,19 +43,19 @@ export function EmissionsModal({ isOpen, onClose, fromCity, toCity, mode }: Emis
                 distance,
                 emissions: calculateFlightEmissions(distance),
                 duration: (distance / 500) * 60, // Rough estimate of flight time
-                price: distance * 0.18 + 50,
+                price: distance * 0.18 + 80,
               },
               {
                 distance,
-                emissions: calculateFlightEmissions(distance),
+                emissions: calculateFlightEmissions(distance) + 7, // Slightly higher emissions with layover
                 duration: (distance / 500) * 60 + 45, // Longer duration with layover
-                price: distance * 0.12 + 30, // Cheaper price
+                price: distance * 0.12 + 60, // Cheaper price
               },
               {
                 distance,
-                emissions: calculateFlightEmissions(distance),
+                emissions: calculateFlightEmissions(distance) + 15,
                 duration: (distance / 500) * 60 + 90, // Longest duration
-                price: distance * 0.1 + 25, // Cheapest price
+                price: distance * 0.1 + 45, // Cheapest price
               },
             ])
           } else {

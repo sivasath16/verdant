@@ -33,6 +33,9 @@ export default function GridPinDemo() {
 
   return (
     <div className="container mx-auto px-4 py-8 ">
+      <div className="flex items-center justify-center p-8">
+        <h1 className="text-4xl font-bold text-center">🌱 Sustainable Living</h1>
+      </div>
       <div className="flex">
         {pins.map((pin, index) => (
           <div key={index} className="flex items-center justify-center">
