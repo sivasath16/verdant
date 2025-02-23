@@ -45,7 +45,7 @@ export function BottomDock() {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center pb-6 w-full">
+    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center pb-6 w-full z-10">
       <FloatingDock items={links} />
     </div>
   );
