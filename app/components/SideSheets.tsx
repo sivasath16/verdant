@@ -8,16 +8,63 @@ import Lottie from "lottie-react"
 import Rewards from "@/public/lottie-files/Rewards.json"
 import Streak from "@/public/lottie-files/Streak.json"
 import Wallet from "@/public/lottie-files/Wallet.json"
+import Family from "@/public/lottie-files/Family.json"
+import Spark from "@/public/lottie-files/Spark.json"
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { GiDiamondTrophy } from "react-icons/gi"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { RiContractFill } from "react-icons/ri";
+
 
 export default function SheetDemo() {
   return (
     <div className="flex gap-5 absolute top-5 right-5">
+          <Sheet>
+  <Lottie animationData={Spark} className="w-[40px] absolute right-[170px] -top-4" loop />
+  <SheetTrigger asChild>
+    <Button className="rounded-full  p-5 text-[#FFD700]" variant="outline">
+      <RiContractFill />
+    </Button>
+  </SheetTrigger>
+  <SheetContent className="p-4">
+    <SheetHeader className="text-center">
+      <SheetTitle className="text-2xl">Climate Insurance Status</SheetTitle>
+      <SheetDescription>Monitor your carbon footprint and insurance coverage</SheetDescription>
+    </SheetHeader>
+    
+    <Lottie animationData={Family} className="w-[200px] mx-auto" loop />
+
+    <div className="space-y-6 mt-6">
+      <Card>
+        <CardHeader className="pb-2">
+          <CardTitle>Carbon Savings</CardTitle>
+          <CardDescription>CO₂ reduction through your actions</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-3xl font-bold text-primary">450 kg CO₂</p>
+        </CardContent>
+      </Card>
+
+    
+      <Card>
+        <CardHeader className="pb-2">
+          <CardTitle>Climate Insurance Coverage</CardTitle>
+          <CardDescription>Based on your sustainable actions</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-2xl font-bold text-green-500">Active</p>
+          <p className="text-sm text-gray-600">Your insurance covers climate-related risks</p>
+        </CardContent>
+      </Card>
+
+    </div>
+  </SheetContent>
+</Sheet>
+
+
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full" variant="outline">
+          <Button className="rounded-full p-5" variant="outline">
             <GiDiamondTrophy />
           </Button>
         </SheetTrigger>
@@ -62,7 +109,7 @@ export default function SheetDemo() {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full" variant="outline">
+          <Button className="rounded-full p-5" variant="outline">
             <GrGrow />
           </Button>
         </SheetTrigger>
@@ -109,7 +156,7 @@ export default function SheetDemo() {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full" variant="outline">
+          <Button className="rounded-full p-5" variant="outline">
             <FaFire />
           </Button>
         </SheetTrigger>
