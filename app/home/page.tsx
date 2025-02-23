@@ -1,7 +1,25 @@
+"use client";
+
 import React from "react";
+import { useUser } from "@clerk/nextjs";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
+import SheetDemo from "../components/SideSheets";
+import Lottie from "lottie-react";
+import JoinCommunity from "@/public/lottie-files/Join the community.json"
+import Inital_load from "@/public/lottie-files/Inital_load.json"
+
+
 export default function BentoGridDemo() {
+  const { user } = useUser();
+  const firstName = user?.firstName || "there";
+  
   return (
+    <>
+    <div className="mb-12 max-w-4xl mx-auto pt-12">
+      <h1 className="text-4xl font-bold mb-4 mx-auto">👋 Hello, {firstName}!</h1>
+    </div>
+    <Lottie animationData={Inital_load} className="w-[450px] mx-auto" loop />
+    <SheetDemo />
     <BentoGrid className="max-w-4xl mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
@@ -13,6 +31,7 @@ export default function BentoGridDemo() {
         />
       ))}
     </BentoGrid>
+    </>
   );
 }
 const Skeleton = () => (
@@ -32,7 +51,8 @@ const items = [
   {
     title: "🏆 Join Challenges",
     description: "Compete, learn, and reduce! Take on exciting sustainability challenges and make a real impact",
-    header: <Skeleton />,
+    header:  <Lottie animationData={JoinCommunity} className="w-[200px] mx-auto bg-black" loop />
+    ,
   },
   {
     title: "📊 Carbon Emission Tracker",
@@ -46,6 +66,7 @@ const items = [
     header: <Skeleton />,
   },
 ];
+
 
   
   

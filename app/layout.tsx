@@ -1,14 +1,23 @@
+import {
+  ClerkProvider,
+  SignInButton,
+  SignedIn,
+  SignIn,
+  SignedOut,
+  UserButton
+} from '@clerk/nextjs'
 import "./globals.css"
 import { Inter } from "next/font/google"
 import type React from "react"
 import type { Metadata } from "next"
 import MouseMoveEffect from "@/components/mouse-move-effect"
+import {BottomDock } from "@/components/top-dock"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Amane Soft - Cutting-Edge Software Solutions",
-  description: "Amane Soft delivers innovative, high-performance software solutions for businesses of the future.",
+  title: "Verdant",
+  description: "Verdant",
     generator: 'v0.dev'
 }
 
@@ -18,15 +27,22 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} bg-background text-foreground antialiased`}>
-        <MouseMoveEffect />
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en" className="dark" suppressHydrationWarning >
+        <body className={`${inter.className} bg-background text-foreground antialiased`}>
+          <SignedOut>
+            <SignIn routing="hash" />
+          </SignedOut>
+
+          <SignedIn>
+            <MouseMoveEffect />
+            <BottomDock />
+            {children}
+          </SignedIn>
+        </body>
+      </html>
+    </ClerkProvider>
   )
 }
-
-
 
 import './globals.css'
