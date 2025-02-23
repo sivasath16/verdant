@@ -1,14 +1,15 @@
+import "./globals.css"
+import { Inter } from "next/font/google"
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { Navbar } from "@/components/navbar"
+import MouseMoveEffect from "@/components/mouse-move-effect"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Verdant - Carbon Footprint Tracker",
-  description: "Track and reduce your carbon footprint with Verdant",
+  title: "Amane Soft - Cutting-Edge Software Solutions",
+  description: "Amane Soft delivers innovative, high-performance software solutions for businesses of the future.",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -17,12 +18,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        <main className="container mx-auto px-4 pt-24">{children}</main>
+    <html lang="en" className="dark">
+      <body className={`${inter.className} bg-background text-foreground antialiased`}>
+        <MouseMoveEffect />
+        {children}
       </body>
     </html>
   )
 }
 
+
+
+import './globals.css'

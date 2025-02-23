@@ -1,51 +1,25 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Progress } from "@/components/ui/progress"
+import Navbar from "@/components/navbar"
+import Hero from "@/components/hero"
+import Features from "@/components/features"
+import CTA from "@/components/cta"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
-    <div className="space-y-8">
-      <h1 className="text-4xl font-bold">Welcome to Verdant</h1>
-      <p className="text-xl text-muted-foreground">Track and reduce your carbon footprint</p>
+    <div className="relative min-h-screen bg-gradient-to-b from-green-50 to-white dark:from-green-950 dark:to-background">
+      {/* Background gradients */}
+      <div className="pointer-events-none fixed inset-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-background/5 via-background/50 to-background/80" />
+        <div className="absolute right-0 top-0 h-[500px] w-[500px] bg-green-500/10 blur-[100px]" />
+        <div className="absolute bottom-0 left-0 h-[500px] w-[500px] bg-emerald-500/10 blur-[100px]" />
+      </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        <Card>
-          <CardHeader>
-            <CardTitle>Carbon Footprint Overview</CardTitle>
-            <CardDescription>Your current carbon footprint status</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Progress value={33} className="mb-2" />
-            <p>Youre doing great! 33% lower than average.</p>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Recent Activities</CardTitle>
-            <CardDescription>Your latest tracked activities</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul className="list-disc pl-5">
-              <li>Cycled to work - Saved 2kg CO2</li>
-              <li>Used reusable shopping bags - Saved 0.1kg CO2</li>
-              <li>Ate a vegetarian meal - Saved 1.5kg CO2</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader>
-            <CardTitle>Tips for Improvement</CardTitle>
-            <CardDescription>Ways to reduce your carbon footprint</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <ul className="list-disc pl-5">
-              <li>Use public transportation more often</li>
-              <li>Reduce meat consumption</li>
-              <li>Switch to energy-efficient appliances</li>
-            </ul>
-          </CardContent>
-        </Card>
+      <div className="relative z-10">
+        <Navbar />
+        <Hero />
+        <Features />
+        <CTA />
+        <Footer />
       </div>
     </div>
   )

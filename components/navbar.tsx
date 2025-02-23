@@ -1,55 +1,32 @@
-"use client"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Leaf } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
-import { cn } from "@/lib/utils"
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-
-const routes = [
-  { name: "Health", href: "/health" },
-  { name: "Travel", href: "/travel" },
-  { name: "Food", href: "/food" },
-]
-
-export function Navbar() {
-  const pathname = usePathname()
-
+export default function Navbar() {
   return (
-    <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50">
-      <NavigationMenu className="bg-background/80 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                <Leaf className="mr-2 h-4 w-4" />
-                Verdant
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          {routes.map((route) => (
-            <NavigationMenuItem key={route.href}>
-              <Link href={route.href} legacyBehavior passHref>
-                <NavigationMenuLink
-                  className={cn(
-                    navigationMenuTriggerStyle(),
-                    pathname === route.href && "bg-accent text-accent-foreground",
-                  )}
-                >
-                  {route.name}
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-          ))}
-        </NavigationMenuList>
-      </NavigationMenu>
-    </div>
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur supports-[backdrop-filter]:bg-background/30">
+      <div className="container flex h-14 max-w-screen-2xl items-center">
+        <Link href="/" className="mr-6 flex items-center space-x-2">
+          <span className="font-bold text-green-600 dark:text-green-500">Verdant</span>
+        </Link>
+        <nav className="flex flex-1 items-center space-x-6 text-sm font-medium">
+          <Link href="/track" className="transition-colors hover:text-green-600 dark:hover:text-green-500">
+            Carbon Tracking
+          </Link>
+          <Link href="/rewards" className="transition-colors hover:text-green-600 dark:hover:text-green-500">
+            Eco Rewards
+          </Link>
+          <Link href="/offset" className="transition-colors hover:text-green-600 dark:hover:text-green-500">
+            Offset Programs
+          </Link>
+        </nav>
+        <div className="flex items-center space-x-4">
+          <Button variant="ghost" size="sm">
+            Sign In
+          </Button>
+          <Button size="sm">Start Tracking</Button>
+        </div>
+      </div>
+    </header>
   )
 }
 
