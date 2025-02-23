@@ -18,11 +18,11 @@ import { RiContractFill } from "react-icons/ri";
 
 export default function SheetDemo() {
   return (
-    <div className="flex gap-5 absolute top-5 right-5">
+    <div className="flex gap-5 absolute top-7 right-5">
     <Sheet>
-      <Lottie animationData={Spark} className="w-[40px] absolute right-[170px] -top-4" loop />
+      <Lottie animationData={Spark} className="w-[40px] absolute right-[240px] -top-4" loop />
       <SheetTrigger asChild>
-        <Button className="rounded-full p-5 px-100 text-[#FFD700]" variant="outline">
+      <Button className="rounded-full w-16 h-16 text-[#FFD700] bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 ring-1 ring-yellow-200/50 hover:ring-yellow-500" variant="outline">
           <RiContractFill />
         </Button>
       </SheetTrigger>
@@ -64,8 +64,8 @@ export default function SheetDemo() {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full p-5" variant="outline">
-            <GiDiamondTrophy />
+        <Button className="rounded-full w-16 h-16 text-[#FFD700] bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 ring-1 ring-yellow-200/50 hover:ring-yellow-500" variant="outline">
+        <GiDiamondTrophy />
           </Button>
         </SheetTrigger>
         <SheetContent className="p-4">
@@ -109,8 +109,8 @@ export default function SheetDemo() {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full p-5" variant="outline">
-            <GrGrow />
+        <Button className="rounded-full w-16 h-16 text-[#FFD700] bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 ring-1 ring-yellow-200/50 hover:ring-yellow-500" variant="outline">
+        <GrGrow />
           </Button>
         </SheetTrigger>
         <SheetContent className="p-4">
@@ -156,8 +156,8 @@ export default function SheetDemo() {
 
       <Sheet>
         <SheetTrigger asChild>
-          <Button className="rounded-full p-5" variant="outline">
-            <FaFire />
+        <Button className="rounded-full w-16 h-16 text-[#FFD700] bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 ring-1 ring-yellow-200/50 hover:ring-yellow-500" variant="outline">
+        <FaFire />
           </Button>
         </SheetTrigger>
         <SheetContent className="p-4">
