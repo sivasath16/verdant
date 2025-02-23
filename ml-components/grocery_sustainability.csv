@@ -1,0 +1,107 @@
+Item,Carbon Footprint (kg CO₂/kg),Water Usage,Land Usage,Processing Level,Packaging,Sustainable
+apple,16.3,medium,low,highly processed,no packaging,No
+banana,1.3,high,medium,highly processed,recyclable,No
+beef,26.0,high,medium,minimally processed,biodegradable,No
+chicken,11.0,low,medium,unprocessed,biodegradable,No
+pork,8.6,low,high,minimally processed,biodegradable,No
+lamb,33.5,low,medium,unprocessed,biodegradable,No
+tofu,7.2,medium,high,minimally processed,plastic,No
+lentils,2.2,low,high,minimally processed,no packaging,No
+rice,0.9,high,high,minimally processed,no packaging,No
+bread,4.8,high,medium,minimally processed,recyclable,No
+milk,31.8,high,high,minimally processed,plastic,No
+cheese,4.3,high,medium,unprocessed,no packaging,No
+yogurt,28.4,high,medium,unprocessed,recyclable,No
+butter,13.0,low,low,highly processed,plastic,No
+eggs,38.9,low,medium,minimally processed,plastic,No
+potato,20.0,medium,high,minimally processed,no packaging,No
+tomato,20.1,low,low,unprocessed,no packaging,No
+carrot,6.4,medium,low,minimally processed,recyclable,Yes
+onion,28.5,low,high,highly processed,no packaging,No
+garlic,32.7,medium,high,minimally processed,recyclable,No
+lettuce,8.6,high,high,highly processed,plastic,No
+cucumber,30.9,medium,low,highly processed,recyclable,No
+spinach,39.0,high,medium,minimally processed,plastic,No
+broccoli,5.0,low,medium,unprocessed,biodegradable,Yes
+cauliflower,1.2,medium,low,minimally processed,biodegradable,Yes
+almonds,12.5,low,high,highly processed,no packaging,No
+cashews,15.9,low,medium,highly processed,no packaging,No
+walnuts,32.5,medium,high,highly processed,plastic,No
+peanuts,28.4,high,high,highly processed,no packaging,No
+oranges,12.0,high,medium,highly processed,plastic,No
+grapes,10.2,low,medium,minimally processed,plastic,No
+mango,24.5,low,high,highly processed,plastic,No
+pineapple,5.1,low,medium,unprocessed,plastic,Yes
+strawberry,9.2,medium,low,highly processed,biodegradable,Yes
+blueberry,1.3,medium,medium,unprocessed,recyclable,Yes
+avocado,15.4,high,low,unprocessed,no packaging,No
+coconut,22.2,medium,medium,minimally processed,plastic,No
+soy milk,28.9,low,low,unprocessed,plastic,No
+oat milk,32.6,low,high,minimally processed,biodegradable,No
+almond milk,11.2,low,medium,minimally processed,biodegradable,No
+corn,10.2,medium,low,minimally processed,recyclable,No
+peas,19.3,high,high,highly processed,biodegradable,No
+green beans,1.2,medium,high,unprocessed,biodegradable,No
+cabbage,23.7,medium,medium,minimally processed,biodegradable,No
+mushrooms,22.5,medium,high,minimally processed,recyclable,No
+pumpkin,3.4,high,medium,unprocessed,no packaging,No
+zucchini,18.2,low,low,highly processed,plastic,No
+eggplant,16.3,low,high,unprocessed,biodegradable,No
+bell pepper,5.2,medium,low,unprocessed,biodegradable,Yes
+chili pepper,31.6,high,medium,minimally processed,no packaging,No
+beetroot,7.4,medium,medium,unprocessed,plastic,Yes
+radish,1.9,medium,medium,unprocessed,no packaging,Yes
+celery,11.3,high,high,unprocessed,biodegradable,No
+asparagus,34.6,medium,low,minimally processed,no packaging,No
+quinoa,23.8,high,medium,highly processed,plastic,No
+oats,35.3,high,high,minimally processed,biodegradable,No
+barley,23.0,low,medium,highly processed,recyclable,No
+wheat flour,3.4,high,high,unprocessed,plastic,No
+sugar,22.3,low,medium,highly processed,biodegradable,No
+honey,8.4,medium,low,minimally processed,recyclable,Yes
+maple syrup,14.9,high,medium,minimally processed,recyclable,No
+olive oil,12.1,medium,high,highly processed,plastic,No
+canola oil,14.2,low,high,minimally processed,no packaging,No
+sunflower oil,25.3,low,medium,highly processed,biodegradable,No
+peanut butter,1.0,low,high,highly processed,biodegradable,No
+jam,3.7,medium,high,unprocessed,recyclable,No
+pasta,24.0,low,low,minimally processed,plastic,No
+noodles,14.0,low,low,unprocessed,biodegradable,No
+cereal,21.0,medium,low,unprocessed,recyclable,No
+granola,8.9,low,low,highly processed,no packaging,Yes
+chocolate,11.4,low,low,unprocessed,no packaging,No
+coffee,37.9,medium,high,unprocessed,recyclable,No
+tea,18.4,medium,medium,highly processed,plastic,No
+soft drink,28.9,medium,low,unprocessed,recyclable,No
+beer,35.4,low,medium,highly processed,plastic,No
+wine,14.4,low,medium,highly processed,plastic,No
+vodka,29.3,low,high,minimally processed,plastic,No
+whiskey,3.9,low,low,minimally processed,no packaging,Yes
+fish,28.6,low,low,unprocessed,plastic,No
+shrimp,10.1,medium,medium,minimally processed,biodegradable,No
+salmon,35.2,high,low,highly processed,plastic,No
+tuna,11.8,low,low,highly processed,recyclable,No
+cod,22.0,low,medium,highly processed,no packaging,No
+mackerel,5.0,high,low,minimally processed,plastic,No
+sardines,35.3,high,low,highly processed,biodegradable,No
+lobster,30.7,high,high,highly processed,biodegradable,No
+clams,22.8,low,medium,highly processed,no packaging,No
+oysters,17.2,low,high,highly processed,no packaging,No
+soy sauce,5.0,high,medium,minimally processed,biodegradable,No
+vinegar,34.5,low,low,unprocessed,no packaging,No
+mustard,12.8,medium,low,highly processed,no packaging,No
+ketchup,6.4,medium,low,highly processed,recyclable,Yes
+mayonnaise,16.4,low,low,highly processed,recyclable,No
+hot sauce,3.0,low,medium,highly processed,plastic,Yes
+pickles,1.6,medium,high,minimally processed,plastic,No
+canned beans,34.4,medium,medium,unprocessed,no packaging,No
+canned tomatoes,39.4,high,medium,unprocessed,biodegradable,No
+frozen pizza,12.2,medium,low,minimally processed,plastic,No
+ice cream,26.5,low,high,minimally processed,plastic,No
+potato chips,8.1,low,low,highly processed,plastic,Yes
+popcorn,17.0,medium,medium,unprocessed,no packaging,No
+protein bars,26.7,high,high,unprocessed,plastic,No
+energy drinks,8.8,low,low,highly processed,biodegradable,Yes
+instant noodles,35.4,medium,medium,highly processed,biodegradable,No
+vegan burgers,26.4,medium,medium,unprocessed,plastic,No
+plant-based milk,6.4,medium,medium,unprocessed,no packaging,Yes
