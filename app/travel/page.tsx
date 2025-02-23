@@ -5,7 +5,6 @@ import { TextRevealCard } from "@/components/ui/text-reveal-card"
 import { CityCombobox } from "@/components/city-combobox"
 import { EmissionsModal } from "@/components/emissions-modal"
 import { TransportCard } from "@/components/transport-card"
-import { WorldMapDemo } from "@/components/mapdemo"
 
 export default function TravelPage() {
   const [fromCity, setFromCity] = useState("")
@@ -24,9 +23,8 @@ export default function TravelPage() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full space-y-12 p-6 pb-40">
-      {/* <WorldMapDemo /> */}
       <div className="flex items-center justify-center rounded-2xl w-full">
-        <TextRevealCard  text="Select your sustainable travel." revealText="And support a greater cause." />
+        <TextRevealCard text="Select your sustainable travel." revealText="And support a greater cause." />
       </div>
 
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">

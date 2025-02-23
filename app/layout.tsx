@@ -1,10 +1,8 @@
 import {
   ClerkProvider,
-  SignInButton,
   SignedIn,
   SignIn,
   SignedOut,
-  UserButton
 } from '@clerk/nextjs'
 import "./globals.css"
 import { Inter } from "next/font/google"
@@ -12,6 +10,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import MouseMoveEffect from "@/components/mouse-move-effect"
 import {BottomDock } from "@/components/top-dock"
+import ChatWidget from "@/components/chat-widget"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -38,6 +37,7 @@ export default function RootLayout({
             <MouseMoveEffect />
             <BottomDock />
             {children}
+            <ChatWidget />
           </SignedIn>
         </body>
       </html>

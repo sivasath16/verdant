@@ -22,6 +22,7 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
     "class-variance-authority": "^0.7.1",
+    "clerk": "^0.8.3",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
     "cobe": "^0.6.3",
