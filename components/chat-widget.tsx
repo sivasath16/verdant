@@ -32,7 +32,7 @@ export default function ChatWidget() {
         </Button>
       </div>
       <iframe
-        src="http://localhost:8501" // Replace with your Streamlit app URL
+        src="http://localhost:8501"
         className="w-full h-full rounded-lg"
         style={{ border: 'none' }}
       />

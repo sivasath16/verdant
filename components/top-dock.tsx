@@ -4,7 +4,8 @@ import {
   IconLeaf,
   IconHome,
   IconPlaneDeparture,
-  IconMoneybag
+  IconMoneybag,
+  IconTableDashed
 } from "@tabler/icons-react";
 
 export function BottomDock() {
@@ -13,6 +14,13 @@ export function BottomDock() {
       title: "Home",
       icon: (
         <IconLeaf className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/",
+    },
+    {
+      title: "Dashboard",
+      icon: (
+        <IconTableDashed className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "/home",
     },

@@ -19,18 +19,18 @@ import { RiContractFill } from "react-icons/ri";
 export default function SheetDemo() {
   return (
     <div className="flex gap-5 absolute top-5 right-5">
-          <Sheet>
-  <Lottie animationData={Spark} className="w-[40px] absolute right-[170px] -top-4" loop />
-  <SheetTrigger asChild>
-    <Button className="rounded-full  p-5 text-[#FFD700]" variant="outline">
-      <RiContractFill />
-    </Button>
-  </SheetTrigger>
-  <SheetContent className="p-4">
-    <SheetHeader className="text-center">
-      <SheetTitle className="text-2xl">Climate Insurance Status</SheetTitle>
-      <SheetDescription>Monitor your carbon footprint and insurance coverage</SheetDescription>
-    </SheetHeader>
+    <Sheet>
+      <Lottie animationData={Spark} className="w-[40px] absolute right-[170px] -top-4" loop />
+      <SheetTrigger asChild>
+        <Button className="rounded-full p-5 px-100 text-[#FFD700]" variant="outline">
+          <RiContractFill />
+        </Button>
+      </SheetTrigger>
+      <SheetContent className="p-4">
+        <SheetHeader className="text-center">
+          <SheetTitle className="text-2xl">Climate Insurance Status</SheetTitle>
+          <SheetDescription>Monitor your carbon footprint and insurance coverage</SheetDescription>
+        </SheetHeader>
     
     <Lottie animationData={Family} className="w-[200px] mx-auto" loop />
 

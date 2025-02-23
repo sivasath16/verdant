@@ -62,10 +62,22 @@ export function EmissionsModal({ isOpen, onClose, fromCity, toCity, mode }: Emis
             // Car route
             setRoutes([
               {
-                distance,
+                distance: distance,
                 emissions: calculateCarEmissions(distance),
                 duration: (distance / 60) * 60, // Assuming average speed of 60mph
-                price: distance * 0.15, // Rough gas cost estimate
+                price: distance * 0.25 + 20, // Rough gas cost estimate
+              },
+              {
+                distance: distance + 10, // Slightly longer distance with detour
+                emissions: calculateCarEmissions(distance),
+                duration: (distance / 80) * 60, // Assuming average speed of 60mph
+                price: distance * 0.25 + 10, // Rough gas cost estimate
+              },
+              {
+                distance: distance + 50,
+                emissions: calculateCarEmissions(distance),
+                duration: (distance / 90) * 60, // Assuming average speed of 60mph
+                price: distance * 0.25, // Rough gas cost estimate
               },
             ])
           }
